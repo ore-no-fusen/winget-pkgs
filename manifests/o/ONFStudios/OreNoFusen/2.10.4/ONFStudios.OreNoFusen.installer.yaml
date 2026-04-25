@@ -1,0 +1,17 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ONFStudios.OreNoFusen
+PackageVersion: 2.10.4
+InstallerLocale: en-US
+InstallerType: nullsoft
+Scope: user
+ReleaseDate: 2026-04-25
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\ore-no-fusen'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ore-no-fusen/ore-no-fusen/releases/download/v2.10.4/ore-no-fusen_2.10.4_x64-setup.exe
+  InstallerSha256: 9B65F50B978CCB217302C2105B34E96BFBDF081F823091F8B9CE0C64058F0F75
+ManifestType: installer
+ManifestVersion: 1.12.0
